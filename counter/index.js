@@ -10,5 +10,5 @@ function increment() {
 function save() {
     saveEl.textContent += count + " - "
     countEl.textContent = 0
-    count = 0
+    count = 0;
 }
