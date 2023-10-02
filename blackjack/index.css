@@ -1,0 +1,34 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: green; 
+    text-align: center;
+    color: azure;
+
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: oblique;
+}
+
+#cardese {
+}
+
+#sumee {
+}
+
+button {
+    color: #045127;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
