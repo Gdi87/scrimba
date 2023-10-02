@@ -12,6 +12,7 @@ let cardEl = document.getElementById("card-el")
 let sumEl = document.querySelector("#suma-el")
 
 
+
 function startGame() {
     sumEl.textContent = "Trotal: " + sum
     if (sum <= 20) {
