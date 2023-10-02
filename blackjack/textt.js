@@ -41,3 +41,11 @@ else if (suum === 21) {
 else {
     console.log("You're out of the game! 😭")
 };
+
+console.log(4 === 3)  // f
+console.log(5 > 2)    // t
+console.log(12 > 12)  //f
+console.log(3 < 0)    //f
+console.log(3 >= 3)   // t
+console.log(11 <= 11) //t
+console.log(3 <= 2)   //f
