@@ -6,14 +6,13 @@ let isAlive = true
 let message = ""
 
 let messageEl = document.getElementById("message-el")
-
-let cardEl = document.getElementById("card-el")
-
+let cardsEl = document.getElementById("card-el")
 let sumEl = document.querySelector("#suma-el")
 
 
 
 function startGame() {
+    cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
     sumEl.textContent = "Trotal: " + sum
     if (sum <= 20) {
         message = "Do you want to draw a new card?"
